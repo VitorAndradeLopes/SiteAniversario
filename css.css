@@ -63,8 +63,7 @@ body
     z-index: -1;
     width: calc(100% + 30px);
     height: calc(100% + 30px);
-    background: linear-gradient(45deg, #ffffff,#000000,#ffffff,#000000,#ffffff,#000000,#ffffff
-    ,#000000,#ffffff,#000000,#ffffff,#000000);
+    background: linear-gradient(45deg, #ffffff,#000000,#ffffff,#000000);
     background-size: 300%;
     border-radius: 8px;
     animation: AnimarBorda 8s linear alternate infinite;
@@ -96,7 +95,7 @@ body
     border: none;
     outline: none;
     color: #fff;
-    background: #9786e9;
+    background: #2F4F4F;
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -105,7 +104,7 @@ body
 
 .glow-on-hover:before {
     content: '';
-    background: linear-gradient(45deg, #ffffff,#000000,#ffffff,#000000,#ffffff,#000000);
+    background: linear-gradient(45deg, #ffffff,#000000);
     position: absolute;
     top: -2px;
     left:-2px;
